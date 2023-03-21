@@ -1,0 +1,29 @@
+.borda-head{
+    border-bottom: 1px solid #DBDBDB;
+}
+.head {
+    margin: 0 auto;
+    height: 54px;
+    width: 935px;
+    background-color: #FFFFFF;
+    align-items: center;
+
+
+    display: flex;
+}
+.canto-esquerdo{
+    display: flex;
+}
+.borda-vert {
+    height: 22px;
+    border: 1px solid #DBDBDB;
+    gap: 0px 15px;
+}
+ion-icon {
+    width: 22px;
+    height: 22px;
+}
+.logo {
+    height: 29px;
+    width: 103px;
+}
