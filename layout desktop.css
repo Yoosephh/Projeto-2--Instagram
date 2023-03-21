@@ -1,5 +1,6 @@
 .borda-head{
     border-bottom: 1px solid #DBDBDB;
+    margin-bottom: 34px;
 }
 
 .head {
@@ -13,7 +14,6 @@
 }
 
 .canto-esquerdo {
-    width: 200px;
     height: auto;
     display: flex;
     gap: 0px 10px;
@@ -47,18 +47,51 @@ ion-icon {
     width: 103px;
 }
 .corpo {
+    width: 935px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 auto;
 }
 .main {
-    height: auto;
-    width: 614px;
+    height: 2000px;
+    width: 615px;
     background-color: cyan;
+}
+.stories {
+    width: 614px;
+    height: 118px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    border: 1px #DBDBDB solid;
+    border-radius: 3px;
+
+}
+
+.posts {
+    background-color: aquamarine;
+    width: 614px;
+    height: 1000px;
+}
+
+.background-story{
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+}
+
+.img-story {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
 }
 
 .sidebar{
-    height: auto;
-    width: 293px;
+    width: 295px;
     background-color: red;
     display: flex;
 }
+a {text-decoration: none; color: black;}
