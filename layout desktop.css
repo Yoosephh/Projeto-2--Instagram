@@ -69,19 +69,26 @@ ion-icon {
     border-radius: 3px;
     margin-bottom: 25px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
 .story-container {
+    width: 614px;
     display: flex;
-    gap: 70px;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .arroba {
-    width: 100%;
     background-color: pink;
-    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+}
+.story {
+    position: relative;
 }
 
 .background-story{
@@ -91,9 +98,7 @@ ion-icon {
     position: absolute;  
     z-index: 1;
 }
-.story {
-    margin-left: 10px;
-}
+
 .img-story {
     margin-left: 5px;
     margin-top: 5px;
@@ -105,14 +110,12 @@ ion-icon {
 }
 
 .arroba {
-    margin-top: 70px;
     width: 70px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 12px;
     color: #262626;
     line-height: 14px;
-    justify-content: center;
 }
 .container-posts {
     gap: 54px;
@@ -168,8 +171,13 @@ ion-icon {
     align-items: center;
 }
 .sidebar{
-    width: 295px;
+    width: 293px;
     background-color: red;
     display: flex;
+}
+.my-profile > img {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
 }
 a {text-decoration: none; color: black;}
