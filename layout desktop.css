@@ -59,36 +59,39 @@ ion-icon {
 .main {
     height: 1000px;
     width: 615px;
-    background-color: cyan;
 }
 .stories {
     width: 614px;
     height: 118px;
-    background-color: blue;
     border: 1px #DBDBDB solid;
     border-radius: 3px;
     margin-bottom: 25px;
     display: flex;
     align-items: center;
+    box-shadow: 0px 6px 12px -3px rgb(54, 54, 54);
 }
 
 .story-container {
     width: 614px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 10px;
 }
 .arroba {
-    background-color: pink;
+    width: 90%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     color: #262626;
+    display: flex;
+    justify-content: center;
 }
 .story {
     position: relative;
+    height: 66px;
 }
 
 .background-story{
@@ -117,11 +120,18 @@ ion-icon {
     color: #262626;
     line-height: 14px;
 }
+.arrow ion-icon {
+    color: #FFFFFF;
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
 .container-posts {
     gap: 54px;
 }
 .posts {
-    background-color: yellow;
     width: 614px;
     height: 800px;
     border: 1px solid #DBDBDB;
