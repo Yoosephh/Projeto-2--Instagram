@@ -128,7 +128,7 @@ ion-icon {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 }
-.container-posts {
+.posts {
     gap: 54px;
 }
 .posts {
@@ -182,12 +182,116 @@ ion-icon {
 }
 .sidebar{
     width: 293px;
-    background-color: red;
     display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 .my-profile > img {
     width: 56px;
     height: 56px;
     border-radius: 28px;
 }
+.my-profile {
+    display: flex;
+    gap: 17px;
+    height: 56px;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+.ident h1 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #262626;
+    font-size: 14px;
+}
+.ident h2 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #8E8E8E;
+    font-size: 14px;
+}
+.sidebar h6 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+}
+.configuracoes {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+}
+.container-sugestoes {
+    display: flex;
+    justify-content: space-between;
+}
+.container-perfis {
+    background-color: red;
+    height: 400px;
+    gap: 2px;
+}
+.container-sugestoes h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+}
+.container-sugestoes h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+color: #262626;
+}
+.perfil-sidebar img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+.perfil-sidebar {
+    display: flex;
+    gap: 11px;
+}
+.perfil-sidebar h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;    
+    color: #262626;
+}
+
+.perfil-sidebar h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+}
+.seguir p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #139EF2;
+}
+.perfis p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 a {text-decoration: none; color: black;}
