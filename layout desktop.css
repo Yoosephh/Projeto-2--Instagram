@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+}
 .borda-head{
     border-bottom: 1px solid #DBDBDB;
     margin-bottom: 34px;
@@ -11,8 +15,8 @@
     height: 54px;
     width: 935px;
     background-color: #FFFFFF;
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -21,14 +25,15 @@
     display: flex;
     gap: 10px;
 }
+
 .icones-direita {
     display: flex;
     gap: 20px;
 }
+
 .borda-vert {
     height: 22px;
-    border: 1px solid #DBDBDB;
-    
+    border: 1px solid #DBDBDB;  
 }
 
 input[type="search"] {
@@ -50,16 +55,19 @@ ion-icon {
     height: 29px;
     width: 103px;
 }
+
 .corpo {
     width: 935px;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
 }
+
 .main {
     height: 1000px;
     width: 615px;
 }
+
 .stories {
     width: 614px;
     height: 118px;
@@ -78,10 +86,9 @@ ion-icon {
     gap: 7px;
     margin-left: 10px;
 }
+
 .arroba {
     width: 90%;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -89,6 +96,7 @@ ion-icon {
     display: flex;
     justify-content: center;
 }
+
 .story {
     position: relative;
     height: 66px;
@@ -114,23 +122,24 @@ ion-icon {
 
 .arroba {
     width: 70px;
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 12px;
     color: #262626;
     line-height: 14px;
 }
+
 .arrow ion-icon {
     color: #FFFFFF;
     height: 26px;
     width: 26px;
     border-radius: 13px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
 }
+
 .posts {
     gap: 54px;
 }
+
 .posts {
     width: 614px;
     height: 800px;
@@ -138,6 +147,7 @@ ion-icon {
     border-radius: 3px;
     gap: 54px;
 }
+
 .img-perfil > img {
     height: 32px;
     width: 32px;
@@ -145,14 +155,14 @@ ion-icon {
     margin: 15px;
     margin-left: 17px;
 }
+
 .identificacao-perfil {
     display:flex;
     align-items: center;
     
 }
+
 .identificacao-perfil > p {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -160,18 +170,19 @@ ion-icon {
     width: 80px;
 }
 
-
 .top {
     height: 60px;
     display: flex;
     align-items: center;
     gap: 420px;
 }
+
 .imgs  {
     width: 612px;
     height: 612px;
     align-items: center;
 }
+
 .imgs > img  {
     height: 612px;
 }
@@ -180,17 +191,20 @@ ion-icon {
     display: flex;
     align-items: center;
 }
+
 .sidebar{
     width: 293px;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
+
 .my-profile > img {
     width: 56px;
     height: 56px;
     border-radius: 28px;
 }
+
 .my-profile {
     display: flex;
     gap: 17px;
@@ -200,72 +214,76 @@ ion-icon {
     margin-top: 20px;
 }
 
-
 .ident h1 {
-    font-family: 'Roboto';
     font-weight: 500;
     color: #262626;
     font-size: 14px;
 }
+
 .ident h2 {
-    font-family: 'Roboto';
     font-weight: 300;
     color: #8E8E8E;
     font-size: 14px;
 }
+
 .sidebar h6 {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
     color: #C7C7C7;
 }
+
 .configuracoes {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
     color: #C7C7C7;
 }
+
 .container-sugestoes {
     display: flex;
     justify-content: space-between;
 }
+
 .container-perfis {
-    background-color: red;
-    height: 400px;
-    gap: 2px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
 }
+
+.perfis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .container-sugestoes h1 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
     color: #8E8E8E;
 }
 .container-sugestoes h2 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
-
-color: #262626;
+    color: #262626;
+    margin-bottom: 15px;
 }
+
 .perfil-sidebar img {
     width: 32px;
     height: 32px;
     border-radius: 16px;
 }
+
 .perfil-sidebar {
     display: flex;
     gap: 11px;
 }
+
 .perfil-sidebar h1 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;    
@@ -273,25 +291,19 @@ color: #262626;
 }
 
 .perfil-sidebar h2 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     color: #8E8E8E;
 }
+
 .seguir p {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
     color: #139EF2;
 }
-.perfis p{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
+
 
 a {text-decoration: none; color: black;}
