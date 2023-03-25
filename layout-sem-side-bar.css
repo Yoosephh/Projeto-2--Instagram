@@ -1,0 +1,11 @@
+@import url("layout-desktop.css");
+
+@media(max-width: 935px) {
+    .sidebar {
+        display: none;
+    }
+    .corpo {
+        display: flex;
+        justify-content: center;
+    }
+}
