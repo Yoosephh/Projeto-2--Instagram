@@ -100,6 +100,7 @@ ion-icon {
 .story {
     position: relative;
     height: 66px;
+    cursor: pointer;
 }
 
 .background-story{
@@ -120,14 +121,6 @@ ion-icon {
     z-index: 2;
 }
 
-.arroba {
-    width: 70px;
-    font-weight: 400;
-    font-size: 12px;
-    color: #262626;
-    line-height: 14px;
-}
-
 .arrow ion-icon {
     color: #FFFFFF;
     height: 26px;
@@ -136,16 +129,16 @@ ion-icon {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.posts {
+.container-posts {
+    display: flex;
+    flex-direction: column;
     gap: 54px;
 }
 
 .posts {
-    width: 614px;
-    height: 800px;
+    width: 612px;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
-    gap: 54px;
 }
 
 .img-perfil > img {
@@ -159,7 +152,7 @@ ion-icon {
 .identificacao-perfil {
     display:flex;
     align-items: center;
-    
+    cursor: pointer;
 }
 
 .identificacao-perfil > p {
@@ -178,18 +171,47 @@ ion-icon {
 }
 
 .imgs  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 612px;
     height: 612px;
-    align-items: center;
+    position: relative;
 }
 
-.imgs > img  {
+.posicao-container {
+    position: absolute;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.posicao-item {
+    display: flex;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.posicao-item.ativo {
+    background-color: #ccc;
+}
+
+.imgs  img  {
     height: 612px;
 }
 
 .foto {
     display: flex;
-    align-items: center;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+}
+.icones-post {
+    margin: 13px 17px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sidebar{
@@ -302,6 +324,7 @@ ion-icon {
     font-size: 12px;
     line-height: 14px;
     color: #139EF2;
+    cursor: pointer;
 }
 
 
