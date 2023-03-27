@@ -7,7 +7,7 @@ body {
     font-style: normal;
 }
 
-.head {
+.head-um {
     margin: 0 auto;
     height: 54px;
     width: 935px;
@@ -15,6 +15,12 @@ body {
     align-items: center;
     justify-content: space-between;
     
+}
+.head-2 {
+    height: 54px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
 }
 .fundo {
     display: flex;
@@ -62,7 +68,7 @@ ion-icon {
     cursor: pointer;
 }
 
-.logo {
+.logo img {
     height: 29px;
     width: 103px;
 }
@@ -71,7 +77,6 @@ ion-icon {
     width: 935px;
     display: flex;
     margin: 0 auto;
-    justify-content: space-between;
 }
 
 .main {
@@ -119,7 +124,7 @@ ion-icon {
 .background-story{
     width: 66px;
     height: 66px;
-    border-radius: 33px;
+    border-radius: 100%;
     position: absolute;  
     z-index: 1;
 }
@@ -129,7 +134,7 @@ ion-icon {
     margin-top: 5px;
     width: 56px;
     height: 56px;
-    border-radius: 28px;
+    border-radius: 100%;
     position: absolute; 
     z-index: 2;
 }
@@ -159,7 +164,7 @@ ion-icon {
 .img-perfil > img {
     height: 32px;
     width: 32px;
-    border-radius: 16px;
+    border-radius: 100%;
     margin: 15px;
     margin-left: 17px;
 }
@@ -204,7 +209,7 @@ ion-icon {
     display: flex;
     width: 6px;
     height: 6px;
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: #333;
     margin: 0 5px;
     cursor: pointer;
@@ -345,6 +350,52 @@ ion-icon {
     cursor: pointer;
 }
 
-
-
+.barra-inferior {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: none;
+    height: 50px;
+    justify-content: space-around;
+    border: 1px solid #DBDBDB;
+    align-items: center;
+    width: 100%;
+    z-index: 99;
+    background-color: #FFFFFF;
+}
+.curtidas {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin: 14px;
+    gap: 5px;
+}
+.icone-curtidas img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.comentar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 14px;
+}
+.comentar input {
+    border: none;
+    height: 25px;
+    width: 95%;
+}
+.comentar button {
+    border: none;
+    background-color: #FFFFFF;
+    color: black;
+    height: 25px;
+    width: 25px;;
+    
+}
+strong {
+    cursor: pointer;
+}
 a {text-decoration: none; color: black;}
